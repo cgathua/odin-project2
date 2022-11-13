@@ -77,7 +77,9 @@ a:focus {
 .btn {
     padding: 5px 20px;
     background-color: var(--color-tertiary);
-    font-weight: 600;}
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 /* END OF GENERAL STYLING */
 
@@ -149,5 +151,46 @@ article[class="sessions-column"] .sessions-image {
 article[class="sessions-column"] .paragraph {
     align-items: flex-end;
     padding-top: 1rem;
+}
 
+source, img {
+    border-radius: 2px 16px;
+}
+/* END OF SESSIONS STYLING */
+
+section[id="quote"] {
+    background-color: var(--color-alternate);
+}
+
+section[id="quote"] p, cite {
+    font-size: 2.25rem;
+    color: var(--color-primary);
+}
+/* END OF QUOTE STYLING */
+
+section[id="signup"] .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-tertiary);
+    padding: 2rem;
+}
+
+article[class="signup-column"] .title, .fee {
+    color: var(--color-secondary);
+}
+
+input[type="email"]{
+    border: 0;
+    padding: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: var(--color-primary);
+    color: var(--color-alternate);
+    cursor: pointer;
+    border: 0;
+    padding: 0.5rem 1.25rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
 }
