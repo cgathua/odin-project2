@@ -128,3 +128,26 @@ section[id="sessions"] .btn:hover {
     background-color: var(--color-primary);
     color: var(--color-alternate);
 }
+
+section[id="sessions"] .container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+article[class="sessions-column"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+article[class="sessions-column"] .sessions-image {
+    padding: 1rem;
+}
+
+article[class="sessions-column"] .paragraph {
+    align-items: flex-end;
+    padding-top: 1rem;
+
+}
