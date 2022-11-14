@@ -20,7 +20,6 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
-    width: 100vw;
     line-height: 1.75;
 }
 .container {
@@ -70,9 +69,6 @@ a:hover {
     transition: 0.3s ease;
 }
 
-a:focus {
-    color: var(--color-tertiary);
-}
 
 .btn {
     padding: 5px 20px;
@@ -182,10 +178,13 @@ section[id="signup"] .container {
     padding: 2rem;
 }
 
-article[class="signup-column"] .title, .fee {
+article[class="signup-column"] .title {
     color: var(--color-secondary);
 }
 
+article[class="signup-column"] .fee {
+    color: var(--color-alternate);
+}
 input[type="email"]{
     border: 0;
     padding: 0.5rem;
