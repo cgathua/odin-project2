@@ -1,7 +1,7 @@
 :root {
     --color-primary: #1F2937;
     --color-secondary: #F9FAF8;
-    --color-tertiary: #3882F6;
+    --color-tertiary: #084EBA;
     --color-alternate: #E5E7EB;
 }
 
@@ -73,6 +73,7 @@ a:hover {
 .btn {
     padding: 5px 20px;
     background-color: var(--color-tertiary);
+    color: var(--color-secondary);
     font-weight: 600;
     text-transform: uppercase;
 }
