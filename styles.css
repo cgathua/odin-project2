@@ -209,3 +209,24 @@ footer {
     justify-content: center;
     align-items: center;
 }
+/* END OF FOOTER STYLING */
+
+@media  screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    nav[id="navigation"] .nav-links {
+        gap: 0.5rem;
+    }
+
+    section[id="about"] .container {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: minmax(min-content, 1fr);
+    }
+
+    section[id="sessions"] .container {
+        grid-template-columns: minmax(min-content, 1fr);
+    }  
+}
